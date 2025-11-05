@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Workshop Registration</title>
+</head>
+<body>
+  <h2>Workshop Registration Form</h2>
+  <form action="/register" method="POST">
+    <input type="text" name="name" placeholder="Enter Name" required><br><br>
+    <input type="email" name="email" placeholder="Enter Email" required><br><br>
+    <input type="tel" name="phone" placeholder="Enter Phone Number" required><br><br>
+    <select name="workshop" required>
+      <option value="">Select Workshop</option>
+      <option value="AI & ML">AI & ML</option>
+      <option value="Web Development">Web Development</option>
+      <option value="Cloud Computing">Cloud Computing</option>
+    </select><br><br>
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>

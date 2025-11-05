@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Environment files
+.env
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.pid
+*.seed
+*.pid.lock
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Backup files
+*.bak
+*.tmp
+*.orig
+
+# Ignore Docker layers if any local cache created
+docker-compose.override.yml
